@@ -1,0 +1,6 @@
+{
+	"name": "sass-livereload-demo",
+	"dependencies": {
+		"bootstrap-css": "3.*"
+	}
+}
