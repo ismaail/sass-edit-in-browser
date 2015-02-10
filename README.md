@@ -52,7 +52,7 @@ The page in `public/index.html` file listen to the server via the tag:
 
 ## The browser
 
-The browsers I tested are Firefox and Chrome.
+The browsers I tested are Firefox 35, Chrome 40 and Opera 29.
 
 By inspecting the page you will see to css rule source file is `style.scss`,
 by clicking on the file name you'll be able to edit it.
