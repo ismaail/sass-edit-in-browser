@@ -44,6 +44,15 @@ Run livereload server:
 node server.js
 ```
 
+In case the port 35729 is not available to use you'll see the error:
+
+```javascript
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+```
+
 The page in `public/index.html` file listen to the server via the tag:
 
 ```html
