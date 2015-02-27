@@ -11,7 +11,8 @@ module.exports = function(grunt) {
 					httpPath: '/',
 					sassDir: 'scss',
 					cssDir: 'public/css',
-					sourcemap: true
+					sourcemap: true,
+					watch: true
 				}
 			}
 		},
