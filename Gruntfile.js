@@ -15,17 +15,7 @@ module.exports = function(grunt) {
 					watch: true
 				}
 			}
-		},
-		watch: {
-			scss: {
-				files: ['scss/**'],
-				tasks: ['compass'],
-				options: {
-					interrupt: true
-				}
-			}
-		},
-
+		}
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
