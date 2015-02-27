@@ -3,8 +3,6 @@
 	"version": "0.1.0",
 	"devDependencies": {
 		"grunt": "latest",
-		"grunt-contrib-compass": "latest",
-		"grunt-contrib-sass": "latest",
-		"grunt-contrib-watch": "latest"
+		"grunt-contrib-compass": "latest"
 	}
 }

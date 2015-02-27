@@ -11,25 +11,14 @@ module.exports = function(grunt) {
 					httpPath: '/',
 					sassDir: 'scss',
 					cssDir: 'public/css',
-					sourcemap: true
+					sourcemap: true,
+					watch: true
 				}
 			}
-		},
-		watch: {
-			scss: {
-				files: ['scss/**'],
-				tasks: ['compass'],
-				options: {
-					interrupt: true
-				}
-			}
-		},
-
+		}
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 
-	grunt.registerTask("default", []);
+	grunt.registerTask("default", ["compass"]);
 };
